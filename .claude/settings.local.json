@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn compile *)",
+      "Bash(where mvn *)",
+      "Read(//c/ProgramData/chocolatey/bin/**)",
+      "Bash(find /c /d -name \"mvn\" -type f)",
+      "Bash(/d/apache-maven-3.9.3/bin/mvn compile *)",
+      "Bash(docker version *)",
+      "Bash(docker run *)",
+      "Bash(docker exec redis *)",
+      "Bash(docker exec *)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
